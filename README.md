@@ -1,33 +1,13 @@
 # 👋 SVDNESS
-
+🇬🇧 English | [🇷🇺 Русский](README_RUS.md)
 ## About Me
 
 ## MMORPG Server Developer | Java Backend Developer
 
 ⚡ Passionate MMORPG developer focused on server-side systems, gameplay mechanics, database optimization, and web integration. ⚡
 
-### Technologies
-
-#### Backend
-- Java 8.
-- Java 17.
-- Java 21.
-- Java 25.
-
-#### Databases
-- MySQL.
-- HikariCP.
-
-#### Web Development
-- PHP.
-- HTML.
-- CSS.
-- JavaScript.
-
-#### Tools
-- Git.
-- Linux.
-- Maven.
+## Tech Stack
+Java • MySQL • HikariCP • PHP • HTML • CSS • JavaScript • Linux  • Maven.
 
 ---
 
@@ -76,6 +56,11 @@ Currently developing and maintaining a custom MMORPG project, including:
 
 ## Portfolio
 Repositories contain examples of systems, tools, and website components developed for MMORPG projects.
+<img src="portfolio/01-main-project.png" width="900">
+<img src="portfolio/02-custom-release.png" width="900">
+<img src="portfolio/03-events.png" width="900">
+<img src="portfolio/04-new-instance.png" width="900">
+<img src="portfolio/05-website.png" width="900">
 
 ---
 
