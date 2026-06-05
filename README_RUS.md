@@ -60,7 +60,7 @@ Java • MySQL • HikariCP • PHP • HTML • CSS • JavaScript • Linux  �
 <img src="portfolio/02-custom-release.png" width="200">
 <img src="portfolio/03-events.png" width="200">
 <img src="portfolio/04-new-instance.png" width="200">
-<img src="portfolio/05-website.png" width="900">
+<img src="portfolio/06-website.png" width="900">
 
 ---
 
