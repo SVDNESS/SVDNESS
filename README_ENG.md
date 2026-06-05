@@ -80,4 +80,4 @@ Repositories contain examples of systems, tools, and website components develope
 ---
 
 ## Contact
-💬 Feel free to open an Issue or Discussion for collaboration. 💬
+💬 Feel free to open an Issue or Discussion for collaboration or Telegramm: https://t.me/svdness_aion_dev 💬
