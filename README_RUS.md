@@ -80,4 +80,4 @@
 ---
 
 ## Контакты
-💬 Для сотрудничества можно использовать GitHub Issues или Discussions. 💬
+💬 Для сотрудничества можно использовать GitHub Issues или Discussions или Telegramm: https://t.me/svdness_aion_dev 💬
