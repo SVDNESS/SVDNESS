@@ -65,4 +65,4 @@ Java • MySQL • HikariCP • PHP • HTML • CSS • JavaScript • Linux  �
 ---
 
 ## Контакты
-💬   Для сотрудничества можно использовать GitHub Issues или Discussions или Telegramm: https://t.me/svdness_aion_dev   💬
+💬   Для сотрудничества можно использовать GitHub Issues или Discussions или Telegram: https://t.me/svdness_aion_dev   💬
