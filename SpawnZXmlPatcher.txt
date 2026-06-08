@@ -7,15 +7,15 @@ The implementation works as follows:
 VisibleObjectSpawner:
 public static VisibleObject spawnNpc(SpawnTemplate spawn, int instanceIndex) {
 		int npcId = spawn.getNpcId();
-    var npcTemplate = DataManager.NPC_DATA.getNpcTemplate(npcId);
+        var npcTemplate = DataManager.NPC_DATA.getNpcTemplate(npcId);
 		if (npcTemplate == null) {
             log.error("No template for NPC {}.", npcId);
 			return null;
 		}
-    var npc = new Npc(new NpcController(), spawn, npcTemplate);
+        var npc = new Npc(new NpcController(), spawn, npcTemplate);
 		npc.setCreatorId(spawn.getCreatorId());
 		npc.setMasterName(spawn.getMasterName());
-    npc.setKnownlist(npc.isFlag() ? new FlagKnownList(npc) : new NpcKnownList(npc));
+        npc.setKnownlist(npc.isFlag() ? new FlagKnownList(npc) : new NpcKnownList(npc));
 		npc.setEffectController(new EffectController(npc));
 		if (WalkerFormator.processClusteredNpc(npc, spawn.getWorldId(), instanceIndex)) {
 			return npc;
@@ -82,12 +82,12 @@ public class SpawnZXmlPatcher {
             int currentNpcId = -1;
             for (int i = 0; i < lines.length; i++) {
                 String line = lines[i];
-                //Отслеживаем текущий npc_id.
+                //Tracking the current npc_id.
                 Matcher npcMatcher = NPC_ID_PATTERN.matcher(line);
                 if (npcMatcher.find()) {
                     currentNpcId = Integer.parseInt(npcMatcher.group(1));
                 }
-                //Обрабатываем строки со спотами.
+                //Processing rows with spots.
                 if (!line.contains("<spot ") || currentNpcId == -1) {
                     continue;
                 }
@@ -106,7 +106,7 @@ public class SpawnZXmlPatcher {
                 float xmlZ = Float.parseFloat(zm.group(1));
                 float correctedZ = findZ(templates, x, y);
                 if (!Float.isNaN(correctedZ) && Math.abs(correctedZ - xmlZ) > MIN_DIFF) {
-                    //Заменяем только значение z — порядок атрибутов сохраняется.
+                    //We only replace the z value — the order of the attributes is preserved.
                     lines[i] = line.replace("z=\"" + zm.group(1) + "\"", "z=\"" + correctedZ + "\"");
                     corrected++;
                 }
