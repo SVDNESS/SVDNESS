@@ -48,7 +48,7 @@ New Class:
 * After the first execution, the XML file will contain the correct Z coordinates, so runtime correction will no longer be required on subsequent server starts (diff < 0.5f).
 * Must be called from GameServer only after SpawnEngine.spawnAll().
 * Example:
-* SpawnZXmlPatcher.patch(800030000, "./data/static_data/spawns/Npcs/SVDNESS/800030000_Rafslan2.xml");
+* SpawnZXmlPatcher.patch(800030000, "./data/static_data/spawns/Npcs/SVDNESS/800030000_Rafslan.xml");
 */
 public class SpawnZXmlPatcher {
     private static final Logger log = LoggerFactory.getLogger(SpawnZXmlPatcher.class);
