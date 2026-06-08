@@ -4,7 +4,7 @@ The implementation works as follows:
 3. The corrected Z value is applied to the spawn.
 4. The updated Z value is written back to the XML file.
 
-VisibleObjectSpawner:
+VisibleObjectSpawner Class:
 public static VisibleObject spawnNpc(SpawnTemplate spawn, int instanceIndex) {
 		int npcId = spawn.getNpcId();
         var npcTemplate = DataManager.NPC_DATA.getNpcTemplate(npcId);
