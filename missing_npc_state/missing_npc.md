@@ -1,5 +1,6 @@
 ## Missing NPC state on server:
 
+```xml
 <npc_state_patch>
     <npc npc_id="203149" state="6"/>
     <npc npc_id="205747" state="5"/>
@@ -17,9 +18,9 @@
     <npc npc_id="217117" state="6"/>
     <npc npc_id="217118" state="6"/>
 </npc_state_patch>
+```
 
-
-
+```python
 ## Python Script
 
 import xml.etree.ElementTree as ET
@@ -250,6 +251,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-	
+```
+
 ## Image
 <img src="screen.png" width="900">
