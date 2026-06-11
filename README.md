@@ -7,7 +7,7 @@
 ⚡ Passionate MMORPG developer focused on server-side systems, gameplay mechanics, database optimization, and web integration. ⚡
 
 ## Tech Stack
-Java • MySQL • HikariCP • PHP • HTML • CSS • JavaScript • Linux  • Maven.
+Java • MySQL • HikariCP • PHP • HTML • CSS • JavaScript • Linux • Maven • C++ •  Python.
 
 ---
 
