@@ -7,7 +7,7 @@
 ⚡ Занимаюсь разработкой MMORPG-серверов, игровых механик, серверной логики, оптимизацией баз данных и веб-разработкой для игровых проектов. ⚡
 
 ## Технический стек
-Java • MySQL • HikariCP • PHP • HTML • CSS • JavaScript • Linux  • Maven.
+Java • MySQL • HikariCP • PHP • HTML • CSS • JavaScript • Linux • Maven • C++ •  Python.
 
 ---
 
